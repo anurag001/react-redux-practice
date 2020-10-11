@@ -1,0 +1,48 @@
+.flex-style{
+    display:flex;
+    flex-direction:row;
+    margin:10px;
+    flex-wrap: wrap;
+}
+.box{
+    border:1px solid #dddddd;
+    padding:10px;
+    margin: 15px;
+    position: relative;
+}
+.box-title{
+    border:1px solid #cccccc;
+    padding: 5px;
+    max-width: 250px;
+    overflow-wrap: break-word;
+}
+b{
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    max-width: 250px;
+    overflow-wrap: break-word;
+}
+.delete-box{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px; 
+    position: absolute;
+    right: 0;
+    top:0;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(255, 208, 0);
+    border-radius: 50%;
+    z-index: 100;
+    height:10px;
+    width: 10px;
+    text-align: center;
+    margin-top: -9px;
+    margin-right: -8px;
+}
